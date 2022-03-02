@@ -102,10 +102,12 @@ text-align: center;
 	.text-box h1{
 		font-size: 60px;
     }
+.wrapper .sidebar {
+	z-index: 1;
+}
 
    
 }
-
 
 .form-btn{
 	display: inline-block;
