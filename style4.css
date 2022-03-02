@@ -5,21 +5,19 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+       body {
+        background-color: #3f7399;
+        color: black;
+      }
+     .dark-mode {
+        background-color: black;
+        color: #03cffc;
+      }
 
-body {
-	background-color: #3f7399;
-	color: black;
-}
-
-.dark-mode {
-	background-color: black;
-	color: #03cffc;
-}
-
-.light-mode {
-	background-color: #9ed9e6;
-	color: black;
-}
+      .light-mode {
+        background-color: #9ed9e6;
+        color: black;
+      }
 
 .header{
 	background-image: linear-gradient(rgba(0, 0, 0, 0.40),rgba(0, 0, 0, 0.40)),url(images/homeimg.jpg);
@@ -33,13 +31,13 @@ body {
 .logo img{
 	width: 5%;
 	padding-left: 0;
-	float: right;
+float: right;
 	padding-top: 10px;
 	border-radius: 80px;
 	position: absolute;
 	margin-left: 85%;
-	top: 5%;
-	left: 2%;
+top: 5%;
+left: 2%;
 }
 
 @media (min-width: 0px) and (max-width: 700px) {
@@ -49,14 +47,16 @@ body {
 
 }
 
+
+
 .text-box{
-	position: absolute;
-	width: 90%;
-	color: #fff;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	text-align: center;
+position: absolute;
+width: 90%;
+color: #fff;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
 }
 
 .text-box h1{
@@ -71,7 +71,9 @@ body {
 	color: whitesmoke;
 	font-size: 18px;
 	align-content: center;
-	border: 2px solid #fff;
+	 border: 2px solid #fff;
+
+	
 }
 
 .hero-btn{
@@ -94,11 +96,16 @@ body {
 	color: #1b301b;
 }
 
+
+
 @media(min-width: 0px) and (max-width: 700px){
 	.text-box h1{
 		font-size: 60px;
     }
+
+   
 }
+
 
 .form-btn{
 	display: inline-block;
@@ -111,7 +118,6 @@ body {
 	cursor: pointer;
 	margin-top: 10px;
 }
-
 .form-btn:hover{
 	background: #03cffc;
 	transition: 1s;
@@ -277,6 +283,8 @@ p{
 	opacity: 3;
 }
 
+
+
 .wrapper .sidebar{
     background: #112c40;
     position: fixed;
@@ -370,3 +378,4 @@ body.active .wrapper .section{
     margin-left: 0;
     width: 100%;
 }
+    
