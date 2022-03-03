@@ -451,6 +451,7 @@ body.active .wrapper .section{
   width: 40%;
   position: relative;
   transition: all 2s ease-in-out;
+  z-index: 1;
 }
 
 .popup h2 {
