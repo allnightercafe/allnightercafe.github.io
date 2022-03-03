@@ -448,7 +448,7 @@ body.active .wrapper .section{
 .popup {
   margin: 70px auto;
   padding: 40px;
-  background: #f5f5dc;
+  background: #6F4E37;
   border-radius: 5px;
   width: 40%;
   position: relative;
@@ -458,7 +458,7 @@ body.active .wrapper .section{
 
 .popup h2 {
   margin-top: 0;
-  color: #6F4E37;
+  color: #f5f5dc;
   text-align: center;
 	z-index: 1;
 }
@@ -471,7 +471,7 @@ body.active .wrapper .section{
   font-weight: bold;
   text-decoration: none;
   color: #6F4E37;
-	z-index: 1;
+  z-index: 1;
 }
 .popup .close:hover {
   color: black;
@@ -481,8 +481,8 @@ body.active .wrapper .section{
   overflow: auto;
   text-align: center;
   font-size: 20px;
-color: black;
-	z-index: 1;
+  color: black;
+  z-index: 1;
 }
 
 @media screen and (max-width: 700px){
@@ -490,7 +490,7 @@ color: black;
     width: 70%;
   }
   .popup{
-    width: 70%;
+    width: 40%;
   }
 }
 
