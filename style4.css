@@ -569,6 +569,8 @@ p{
 	}
 	.layer button{
 		margin-top: 10px;
+	}
+
 }
 
 .layer:hover p{
@@ -625,7 +627,7 @@ p{
   padding: 40px;
   background: #f5f5dc;
   border-radius: 5px;
-  width: 40%;
+  width: 60%;
   position: relative;
   transition: all 2s ease-in-out;
 }
