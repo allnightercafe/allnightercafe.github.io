@@ -564,9 +564,11 @@ p{
 
 @media (max-width: 700px){
 	.layer p{
-		font-size: 18px;
+		font-size: 13px;
 
 	}
+	.layer button{
+		margin-top: 10px;
 }
 
 .layer:hover p{
