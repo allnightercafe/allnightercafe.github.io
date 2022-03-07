@@ -481,16 +481,18 @@ p{
 .items-col img{
 	width: 60%;
 	display: block;
+  border-radius: 10px;
 }
 
 .layer{
 	background: transparent;
 	height: 100%;
-	width: 60%;
+	width: 80%;
 	position: absolute;
 	top: 0;
 	left: 0;
 	transition: 0.5s;
+  border-radius: 10px;
 }
 
 .layer:hover{
@@ -519,7 +521,7 @@ p{
 	width: 100%;
 	font-weight: 50;
 	color: whitesmoke;
-	font-size: 17px;
+	font-size: 13px;
 	bottom: 0;
 	left: 50%;
 	top: 30%;
@@ -532,22 +534,21 @@ p{
 
 
 .layer button{
-	width: 100px;
-	height: 30px;
+	width: 50px;
+	height: 20px;
     position: relative;
-    margin-top: 305px;
+    margin-top: 5px;
     display: inline-block;
 	text-decoration: none;
 	color: whitesmoke;
 	border: 1px solid #fff;
-	padding: 10px 200px 25px 15px;
-	font-size: 13px;
+	padding: 10px 100px 18px 15px;
+	font-size: 10px;
 	background: transparent;
 	cursor: pointer;
-	font-size: 18px;
+	font-size: 15px;
 	font-weight: 100;
-	align-items: center; 
-	align-content: center;
+	margin-right: 50px;
 	border-radius: 10px;
 }
 
