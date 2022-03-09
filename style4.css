@@ -779,6 +779,14 @@ p{
 .disclaimer p{
   font-size: 25px;
   text-align: center;
+  width: 800px;
+  margin: auto;
+}
+
+@media (max-width: 700px){
+  .disclaimer p{
+    width: 300px;
+  }
 }
 
 .slideshow-container {
