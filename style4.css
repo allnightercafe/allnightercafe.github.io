@@ -305,7 +305,7 @@ left: 2%;
 @media (min-width: 0px) and (max-width: 700px) {
 	.logo img{
 		width: 25%;
-   margin-left: 70%;
+   margin-left: 75%;
 	}
 
 }
@@ -328,6 +328,7 @@ text-align: center;
 	font-size: 78px;
 	font-family: gothic;
 	align-content: center;
+	background-color: black;
 }
 
 
@@ -367,13 +368,14 @@ width: 350px;
 	position: relative;
 	cursor: pointer;
 	margin-top: 10px;
+	background: #317873;
 }
 
 .hero-btn:hover{
-	border: 1px solid #6F4E37;
-	background: white;
+	border: 1px solid white;
+	background: black;
 	transition: 1s;
-	color: black;
+	color: white;
 }
 
 
