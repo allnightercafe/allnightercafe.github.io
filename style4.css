@@ -5,13 +5,13 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-       body {
-        background-color: black;
+  .body {
+        background-color: rgba(222, 206, 150, 0.35);
         color: #FF00B8;
       }
 
 .header{
-  background-image: url(images/homeimg.jpg);
+  background-image: url("images/homeimg.jpg");
   min-height: 100vh;
   width: 100%;
   background-size: cover;
@@ -20,14 +20,45 @@
   
 }
 
+.taskbar{
+  list-style-type: none;  
+  margin: 0;  
+  padding: 0px;  
+  overflow: hidden;  
+  background-color: rgba(222, 206, 150, 0.35);  
+}
+
+.taskbar li {  
+  float: left;  
+}  
+  
+.taskbar li a {  
+  display: block;  
+  color: black;  
+ font-size:20px;  
+  text-align: center;  
+  padding: 10px 20px;  
+  text-decoration: none;  
+}  
+
+.active{  
+background-color: rgba(222, 206, 150, 0.35);  
+color: white;  
+}  
+
+.taskbar li a:hover {  
+  background-color: orange;  
+  color: white;  
+}  
 .logo img{
-  width: 10%;
-  padding-left: 10;
+  width: 7%;
+  padding-left: 8;
 float: center;
   padding-top: 10px;
   border-radius: 0px;
   position: absolute;
-  margin-left: 80%;
+  border-radius: 50%;
+  margin-left: 85%;
 top: 2%;
 left: 5%;
 }
@@ -53,7 +84,7 @@ text-align: center;
 }
 
 .text-box h1{
-  color: #FF00B8;
+  color: rgba(255, 205, 0, 1);
   font-size: 78px;
   font-family: gothic;
   align-content: center;
@@ -89,10 +120,10 @@ width: 350px;
 .hero-btn{
   display: inline-block;
   text-decoration: none;
-  color: whitesmoke;
+  color: black;
   padding: 10px 30px;
   font-size: 18px;
-  background: #FF00B8;
+  background: rgba(255, 205, 0, 1);
   position: relative;
   cursor: pointer;
   margin-top: 10px;
@@ -118,10 +149,10 @@ width: 350px;
 .main-hero-btn{
   display: inline-block;
   text-decoration: none;
-  color: whitesmoke;
+  color: black;
   padding: 50px 50px;
   font-size: 30px;
-  background: #FF00B8;
+  background: rgba(255, 205, 0, 1);
   position: relative;
   cursor: pointer;
   margin-top: 40px;
@@ -129,7 +160,7 @@ width: 350px;
 
 .main-hero-btn:hover{
 
-  background: #FFDA00;
+  background: rgba(255, 0, 0, 1);
   transition: 1s;
   color: black;
 }
@@ -148,22 +179,29 @@ width: 350px;
   padding-left: 40px;
   font-size: 20px;
   border: 5px solid #FFDA00;
+  justify-content: center;
+  color: black;
 }
 
+.items h2{
+  font-size: 40px;
+  text-align: center;
+  color: black;
+}
 .prices {
   justify-content: center;
   font-size: 15px;
-  color: #FF00B8;
+  color: black;
 }
 
 .prices p {
   font-size: 20px;
   text-align: center;
-  color: #FF00B8;
+  color: black;
 }
 
 .prices h1{ 
-color:#FF00B8
+color:black;
 }
 
 
@@ -175,19 +213,19 @@ table {
 }
 
 td, th {
-  border: 1px solid #FF00B8;
+  border: 2px solid black;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #FF00B8;
+  background-color: #FFDA00;
   color: black;
 }
 h3{
   font-size: 20px;
   text-align: center;
-  color: #317873;
+  color: black;
 }
 
 
@@ -208,12 +246,14 @@ h3{
     color: whitesmoke;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-family: ariel;
   }
 
 .btn2:hover{
   cursor: pointer;
-  background-color: whitesmoke;
+  background-color: #FFDA00;
   color: black;
   border-color: whitesmoke;
 }
@@ -221,7 +261,7 @@ h3{
 h1{
   font-size: 50px;
   font-weight: 600;
-  color: #317873;
+  color: black;
   text-align: center;
 }
 
@@ -370,8 +410,8 @@ p{
   text-align: center;
   width: 800px;
   margin: auto;
-   border: 2px solid black;
-   color: #FFDA00;
+   border: 4px solid black;
+   color: black;
 }
 
 @media (max-width: 700px){
@@ -381,8 +421,9 @@ p{
 }
 
 
+
 .socialmedia i{
-  color: #328ca8;
+  color: black;
   font-size: 40px;
   margin-left: 15%;
 }
@@ -393,6 +434,31 @@ p{
 }
 .disclaimer p{
   font-size: 18px;
+}
+
+}
+
+.socialmedia svg{
+  color: black;
+  font-size: 40px;
+  margin-left: 15%;
+}
+
+.socialmedia path{
+  color: black;
+  font-size: 60px;
+  margin-left: 15%;
+} 
+
+@media(max-width: 700px){
+.socialmedia svg{
+  margin-left: 8%;
+}
+}
+
+@media(max-width: 700px){
+.socialmedia path{
+  margin-left: 8%;
 }
 
 }
@@ -417,12 +483,12 @@ p{
 .whyus h1{
   font-size: 60px;
   text-align: center;
-  color: #FFDA00;
+  color: black;
 }
 
 .whyus h3{
   font-size: 25px;
-  color: #FF00B8;
+  color: black;
   margin-top: 6px;
   text-align: center;
 }
@@ -438,9 +504,9 @@ p{
 
 .whyus p{
   font-size: 20px;
-  color: #FF00B8;
+  color: black;
   width: 600px;
-  border: 1px solid #FFDA00;
+  border: 1px solid black;
   text-align: center;
   margin: auto;
 }
